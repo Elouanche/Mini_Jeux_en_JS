@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2048</title>
+    <meta name="Description" content="">
+    <link rel="stylesheet" href="../assets/css/styles.css">
+    <link rel="stylesheet" href="../assets/css/normalize.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <a href="../index.html">
+            <img src="../assets/img/logo-site.jpg" alt="Logo du site">
+        </a>
+
+        <a class="login" href="login.html">
+            <img src="../assets/img/connexion.png" alt="Bouton connexion">
+        </a>
+    </header>
+
+    <main class="main_2048">
+        <div class="container_2048">
+            <div id="alert"></div>
+            <div class="board">
+                <div class="square"></div>
+                <div class="square"></div>
+                <div class="square"></div>
+                <div class="square"></div>
+                <div class="square"></div>
+                <div class="square"></div>
+                <div class="square"></div>
+                <div class="square"></div>
+                <div class="square"></div>
+                <div class="square"></div>
+                <div class="square"></div>
+                <div class="square"></div>
+                <div class="square"></div>
+                <div class="square"></div>
+                <div class="square"></div>
+                <div class="square"></div>
+            </div>
+            <div class="tileContainer"></div>
+        </div>
+
+        <div class="elementContainer">
+            <div class="title">
+                <h1>2048</h1>
+            </div>
+            <div class="elementContainerGame2048">
+                <div class="scoreElementContainer">
+                    <div id="scoreLabel">Score</div>
+                    <div id="scoreElement">0</div>
+                </div>
+                <div class="scoreElementContainer">
+                    <div id="highScoreLabel">High Score</div>
+                    <div id="highScoreElement">0</div>
+                </div>
+                <div>
+                    <button class="newGame" onclick="startNewGame()">New Game</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="quitGame">
+            <a href="../index.html">Quit Game</a>
+        </div>
+    </footer>
+
+    <script src="../assets/js/2048.js"></script>
+</body>
+</html>

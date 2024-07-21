@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/styles.css">
+    <link rel="stylesheet" href="../assets/css/normalize.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <title>Select Difficulty</title>
+</head>
+<body class="tic-tac-toe">
+    <header>
+        <a href="../index.html">
+            <img src="../assets/img/logo-site.jpg" alt="Logo mini jeux">
+        </a>
+
+        <a class="login" href="./login.html">
+            <img src="../assets/img/connexion.png" alt="Bouton connexion">
+        </a>
+    </header>
+
+    <h1>Select Game Mode</h1>
+
+    <div class="difficulty">
+        <button onclick="navigateToGame('easy')">Easy</button>
+        <button onclick="navigateToGame('medium')">Medium</button>
+        <button onclick="navigateToGame('hard')">Hard</button>
+        <button onclick="navigateTo1v1()">1v1</button>
+    </div>
+    
+    <script>
+        function navigateToGame(difficulty) {
+            window.location.href = `tic-tac-toe.html?difficulty=${difficulty}&mode=computer`;
+        }
+
+        function navigateTo1v1() {
+            window.location.href = `tic-tac-toe.html?mode=1v1`;
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/styles.css">
+    <link rel="stylesheet" href="../assets/css/normalize.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <title>Space Invaders</title>
+</head>
+<body class="space-body">
+    <header>
+        <a href="../index.html">
+            <img src="../assets/img/logo-site.jpg" alt="Logo du site">
+        </a>
+
+        <a class="login" href="login.html">
+            <img src="../assets/img/connexion.png" alt="Bouton connexion">
+        </a>
+    </header>
+
+    <main class="space-main">
+        <h1>Space Invaders</h1>
+    
+        <div id="board-container">
+            <canvas id="board"></canvas>
+            
+            <div class="startButton">
+                <button id="playButton">Play</button>
+            </div>
+
+            <div id="gameOverScreen">
+
+                <h2 id="gameOverText"></h2>
+
+                <br>
+
+                <p>Your score: <span id="scoreDisplay"></span></p>
+
+                <br>
+
+                <p>Highscore: <span id="high-score"></span></p>
+
+                <br>
+
+                <button id="replayButton">Replay</button>
+            </div>
+        </div>
+        
+        <script src="../assets/js/spaceinvaders.js"></script>
+    </main>
+
+    <footer>
+        <div class="quitGame">
+            <a href="../index.html">Quit Game</a>
+        </div>
+    </footer>
+</body>
+</html>
