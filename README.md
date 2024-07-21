@@ -58,7 +58,7 @@ Ouvrez votre navigateur, puis tapez **[localhost/mini-jeux-js](http://localhost/
 
 ## VII. Visuels de l'application web
 
-Voici l'interface générale de votre mini-jeux-js :  
+* Voici l'interface générale de votre mini-jeux-js :  
 ![Accueil](<ressources/img-Readme/accueil .png>)
 
 * Et voici quelques jeux : 
