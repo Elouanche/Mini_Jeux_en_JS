@@ -62,7 +62,7 @@ Voici l'interface générale de votre mini-jeux-js :
 ![Accueil](<ressources/img-Readme/accueil .png>)
 
 Et voici quelques jeux : 
-![Flappy bird](ressources/img-Readme/flappy.png)
+![Flappy bird](ressources/img-Readme/flappy-bird.png)
 ![Space Invaders](ressources/img-Readme/spaceInvaders.png)
 
 ## VIII. Remerciements
